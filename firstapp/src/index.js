@@ -45,7 +45,7 @@ function Booklist () {
 const Book = (props) => {
   const {img, title, author } = props.book;
 
-  const handleClick = () => {
+  const handleClicke = () => {
    return alert("clicked");
   }
   return (
@@ -53,7 +53,7 @@ const Book = (props) => {
       <img src = {img} alt = "" />
       <h1>{title}</h1>
       <h1>{author}</h1>
-      <button type = "button" onClick = {handleClick}>Click Me</button>
+      <button type = "button" onClick = {handleClicke}>Click Me</button>
 
     </article>
   );
